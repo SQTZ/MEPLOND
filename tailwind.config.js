@@ -10,6 +10,11 @@ module.exports = {
             fontFamily: {
                 logo: "Josefin Sans",
             },
+
+            colors: {
+                'primary': "#144272",
+                'second': "#567189",
+            },
         },
     },
     plugins: [],
