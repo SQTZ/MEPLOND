@@ -31,12 +31,12 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill  onClick={() => setDarkMode(!darkMode)} className="cursor-pointer dark:text-white"/>
               </li>
-              <li><a href="#" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>LogIn</a></li>
+              <li><a href="#" className='bg-primary text-white px-4 py-2 rounded-md ml-8'>LogIn</a></li>
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl '>Meplond Victor</h2>
-            <h3 className='dark:text-white text-2xl py-2 md:text-3xl'>Artist</h3>
+            <h2 className='text-5xl py-2 text-primary font-medium md:text-6xl dark:text-white'>Meplond Victor</h2>
+            <h3 className='dark:text-white text-2xl py-2 md:text-3xl'>Menusier</h3>
             <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-300 md:text-xl max-w-lg mx-auto'>Actuellement en études supérieurs</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
@@ -52,7 +52,7 @@ export default function Home() {
         <section>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gradient-to-r from-cyan-500 to-teal-500">
-            <h3 className='text-3xl py-10 text-center text-teal-600 font-medium dark:text-white'>A propos de moi</h3>
+            <h3 className='text-3xl py-10 text-center text-primary font-medium dark:text-white'>A propos de moi</h3>
               <p className="py-2 dark:text-gray-300">
                 Creating elegant designs suited for your needs following core
                 design theory.Creating elegant designs suited for your needs following core
@@ -70,7 +70,7 @@ export default function Home() {
 
         <section className="py-10">
           <div>
-            <h3 className="text-center text-3xl py-1 dark:text-white">Mes créations</h3>
+            <h3 className="text-center text-3xl py-1 text-primary font-medium dark:text-white">Mes créations</h3>
 
           </div>
           <div className="flex items-center flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
